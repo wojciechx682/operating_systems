@@ -1,7 +1,3 @@
-// SO IS1 222A LAB08
-// Jakub Wojciechowski
-// wj46693@zut.edu.pl
-
 #include <unistd.h>
 #include <sys/types.h>
 #include <errno.h>
