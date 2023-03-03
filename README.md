@@ -14,4 +14,6 @@ show_process_linux.sh
     
 create_process_linux.c
 
-    ss
+    C program that takes an integer argument from the command line and performs a recursive operation. The program checks the validity of the input argument and recursively calls itself twice with the argument decremented by 1 and 2, respectively. It then waits for the two child processes to finish executing and returns the sum of their return values.
+
+    The program also prints the process ID, parent process ID, input argument, and return value of each child process. If the input argument is not a natural number or is outside the range of 1 to 13, the program returns an error code.
