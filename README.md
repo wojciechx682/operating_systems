@@ -11,3 +11,7 @@ show_process_linux.sh
     If-u parameterwhoami command/proc filefile_user.pid2 and loops over each element of the array to print various information about each process, including its parent process ID (ppid), process name (pname), and current working directory (katalog_roboczy).
 
     If the script is called with no parameters or with an invalid parameter, it prints an appropriate error message. Finally, the script removes the file and file_user files, if they were created during execution.
+    
+create_process_linux.c
+
+    ss
