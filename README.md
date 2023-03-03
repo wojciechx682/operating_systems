@@ -21,4 +21,8 @@ create_process.c
 
 create_process_linux.c
 
-    aaa
+    C program that takes a single command-line argument, which should be an integer between 1 and 13. The program then forks two child processes, each of which executes the same program, passing the argument decremented by 1 or 2, respectively.
+
+    The parent process waits for both child processes to terminate and then prints out the PID of each child process, the argument passed to it, and the exit status of that child process. It also prints out the sum of the exit statuses of both child processes.
+
+    The program uses various system calls and library functions such as fork(), execvp(), waitpid(), getpid(), atoi(), sprintf(), and printf(). It also uses some standard header files such as <unistd.h>, <sys/types.h>, <errno.h>, <stdio.h>, and <sys/wait.h>.
